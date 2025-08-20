@@ -1,0 +1,19 @@
+# ⚙️ Setup Instructions
+
+This project does not use Python dependencies. Instead, it requires the following tools and services to be installed and configured:
+
+## 📦 Requirements (Tools & Services)
+- **PostgreSQL** → Source database  
+- **Apache NiFi** → ETL & data flow automation  
+- **ClickHouse** → Analytical database  
+- **Power BI / Tableau** → Visualization & dashboarding  
+
+## ⚡ Optional (for testing / development)
+- SQL client (e.g., DBeaver, pgAdmin, DataGrip)  
+- Docker (to spin up PostgreSQL/ClickHouse containers quickly)  
+
+## 🚀 Setup Steps
+1. Install and configure **PostgreSQL** (create schema using `/sql/hospital_schema.sql`).  
+2. Import **Apache NiFi flow templates** from `/nifi_flows/`.  
+3. Setup **ClickHouse** schema from `/sql/clickhouse_setup.sql`.  
+4. Connect Power BI / Tableau to ClickHouse and load the dashboard file from `/powerbi/`.  

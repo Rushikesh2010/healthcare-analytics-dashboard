@@ -1,0 +1,15 @@
+📦 Requirements (Tools & Services)
+
+PostgreSQL → Source database
+
+Apache NiFi → ETL & data flow automation
+
+ClickHouse → Analytical database
+
+Power BI / Tableau → Visualization & dashboarding
+
+⚡ Optional (for testing / development)
+
+Any SQL client (e.g., DBeaver, pgAdmin, DataGrip)
+
+Docker (to spin up PostgreSQL/ClickHouse containers quickly)
